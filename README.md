@@ -1,14 +1,14 @@
 # Auto-login-IoT-devices
 This python script is for auto login in raspberry pi to IIT Mandi WiFi also to skip setting up proxy every time you boot.
 
-###Install Dependencies 
+### Install Dependencies 
 pip install selenium
 
 ### Web Driver for differnt browser
 
 Downlaod Web Driver:https://www.seleniumhq.org/download/
 
-## For setting up proxy
+## For Setting Up Proxy
 
 $ os.system("export_http_proxy="http:// 10.8.0.1: 8080/" ")
 
