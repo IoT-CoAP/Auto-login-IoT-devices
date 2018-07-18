@@ -1,0 +1,56 @@
+{
+  "id": "3d70a8da-f8f0-4372-bce8-83fc37ee8a5a",
+  "name": "Untitled Project",
+  "url": "http://gateway.iitmandi.ac.in",
+  "tests": [{
+    "id": "e84863ef-ec52-4b08-bb86-5ca4b586fb11",
+    "name": "Untitled",
+    "commands": [{
+      "id": "750a8942-0ed7-4ab2-b4ac-c1c9e86e0722",
+      "comment": "",
+      "command": "open",
+      "target": "/facstaff/login.php",
+      "value": ""
+    }, {
+      "id": "9b745cc9-e1fb-492d-a764-6cb6f94e0107",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=username",
+      "value": "106,12"
+    }, {
+      "id": "6ca1f368-4bcb-4535-a9d1-38e95c4f92aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "value": "intern_tapaswin"
+    }, {
+      "id": "b1e0043c-8569-4241-b6d7-f2291d39e631",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "value": "ITW@1234#"
+    }, {
+      "id": "85a1befe-4425-4aad-a900-d3588044ac74",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=login_form",
+      "value": "343,86"
+    }, {
+      "id": "5767d1ac-63dd-43df-9208-1639e3af8c6d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=input[type=\"submit\"]",
+      "value": "38,9"
+    }]
+  }],
+  "suites": [{
+    "id": "0ded2499-7ec2-430d-ae37-a3754d9f954a",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e84863ef-ec52-4b08-bb86-5ca4b586fb11"]
+  }],
+  "urls": ["http://gateway.iitmandi.ac.in/"],
+  "plugins": [],
+  "version": "1.0"
+}
