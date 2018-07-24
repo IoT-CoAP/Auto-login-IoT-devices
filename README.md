@@ -10,7 +10,7 @@ Downlaod Web Driver:https://www.seleniumhq.org/download/
 
 ## For Setting Up Proxy
 
-$ os.system("export_http_proxy="http:// 10.8.0.1: 8080/" ")
+$ os.system("export_http_proxy="http://10.8.0.1:8080/" ")
 
 $ os.system("export_https_proxy="https://10.8.0.1:8080/" ")
 
